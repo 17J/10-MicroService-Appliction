@@ -42,7 +42,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: 17rj/microservice-frontendservice
           ports:
           - containerPort: 8080
           readinessProbe:
