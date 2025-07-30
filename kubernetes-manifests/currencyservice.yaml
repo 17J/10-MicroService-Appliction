@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: currencyservice
+        image: 17rj/microservice-currencyservice
         ports:
         - name: grpc
           containerPort: 7000
