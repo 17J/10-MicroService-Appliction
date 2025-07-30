@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cartservice
+        image: 17rj/microservice-cartservice
         ports:
         - containerPort: 7070
         env:
