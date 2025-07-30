@@ -40,7 +40,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: 17rj/microservice-checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:
