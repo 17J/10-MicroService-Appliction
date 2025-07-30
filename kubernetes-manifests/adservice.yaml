@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: adservice
+        image: 17rj/microservice-adservice
         ports:
         - containerPort: 9555
         env:
