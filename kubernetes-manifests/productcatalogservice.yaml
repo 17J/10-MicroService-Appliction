@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: productcatalogservice
+        image: 17rj/microservice-productcatelogservice
         ports:
         - containerPort: 3550
         env:
