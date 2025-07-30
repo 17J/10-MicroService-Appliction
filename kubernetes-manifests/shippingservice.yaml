@@ -40,7 +40,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: 17rj/microservice-shippingservice
         ports:
         - containerPort: 50051
         env:
