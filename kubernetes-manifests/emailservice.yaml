@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: emailservice
+        image: 17rj/microservice-emailservice
         ports:
         - containerPort: 8080
         env:
